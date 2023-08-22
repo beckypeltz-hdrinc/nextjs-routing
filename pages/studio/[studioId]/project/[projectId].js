@@ -2,10 +2,10 @@ import { useRouter } from 'next/router'
 
 function Review() {
   const router = useRouter()
-  const { productId, reviewId } = router.query
+  const { studioId, projectId } = router.query
   return (
     <h1>
-      Review {reviewId} for product {productId}
+      Project {projectId} in studio {studioId}
     </h1>
   )
 }

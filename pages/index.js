@@ -5,8 +5,8 @@ function Home() {
   const router = useRouter()
 
   const handleClick = () => {
-    console.log('Placing your order')
-    router.push('/product')
+    console.log('Listing Studios')
+    router.push('/studio')
   }
   return (
     <>
@@ -19,11 +19,11 @@ function Home() {
         Docs
       </Link>
       <br />
-      <Link href='/product'>
-        Products
+      <Link href='/studio'>
+        Studios
       </Link>
       <br />
-      <Link href='/product/1/review/1'>
+      <Link href='/studio/1/project/1'>
         Review
       </Link>
 
@@ -31,8 +31,8 @@ function Home() {
       <button onClick={handleClick}>Place Order</button>
       <br />
 
-      <Link href='/product/1/review/1'>
-        Review 1 for Product 1
+      <Link href='/studio/1/project/2'>
+        Project 2 in Studio 1
       </Link>
     </>
   )
