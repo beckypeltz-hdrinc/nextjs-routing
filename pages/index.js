@@ -28,7 +28,7 @@ function Home() {
       </Link>
 
       <br />
-      <button onClick={handleClick}>Place Order</button>
+      <button onClick={handleClick}>Choose a studio</button>
       <br />
 
       <Link href='/studio/1/project/2'>
